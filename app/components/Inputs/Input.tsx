@@ -40,8 +40,7 @@ const Input: React.FC<InputProps> = ({
           autoComplete={id}
           disabled={disabled}
           {...register(id, { required })}
-          className={clsx(
-            `
+          className={clsx(`
           form-input
           block
           w-full
